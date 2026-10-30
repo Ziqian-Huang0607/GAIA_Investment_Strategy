@@ -1,0 +1,8 @@
+﻿check,passed,detail
+Research stock sleeve,True,Research stock weight 0.4000; target 0.4000.
+Human approval before allocation,True,Unapproved candidates receive zero approved target weight.
+Strategic SPYM weight,True,Target 60.0%.
+Approved stock sleeve,True,Approved stock weight 0.0000; zero means the candidate set is research-only.
+Individual stock maximum,True,Maximum 6.0% of total portfolio.
+Sector redundancy cap,True,Sector cap within the stock sleeve.
+Risk buckets sum,True,Growth + Stability + Future Liability = 100%.

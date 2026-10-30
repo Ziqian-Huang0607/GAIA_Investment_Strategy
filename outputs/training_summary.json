@@ -1,0 +1,23 @@
+{
+  "oos_quarters": 9,
+  "ic_mean": 0.06185489580447564,
+  "ic_std_population": 0.26687638765642996,
+  "icir": 0.2317735800744804,
+  "hit_rate_quarter_average": 0.554527588813303,
+  "top5_bottom5_quarter_average": 0.030118077832104406,
+  "oos_rmse": 0.129796771433874,
+  "oos_mae": 0.1066914170154133,
+  "oos_residual_std": 0.1299412306983614,
+  "as_of": "2026-10-30",
+  "score_quarter": "2026-09-30",
+  "final_training_rows": 595,
+  "stale_rows_excluded": 116,
+  "incomplete_labels_masked": 140,
+  "alpha": 10.0,
+  "features": [
+    "3B综合分",
+    "3C成长",
+    "3C质量",
+    "E/P"
+  ]
+}

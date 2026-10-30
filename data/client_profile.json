@@ -1,0 +1,17 @@
+{
+  "base_year": 2026,
+  "contributions": {
+    "2027": 300000,
+    "2028": 150000
+  },
+  "contribution_timing": "beginning_of_year",
+  "payment_amount": 50000,
+  "payment_start_year": 2033,
+  "payment_end_year": 2042,
+  "payment_timing": "beginning_of_year",
+  "communication_year": 2031,
+  "reserve_year": 2033,
+  "flexibility_buffer": 50000,
+  "reserve_discount_rate": 0.02,
+  "notes": "All ten operating payments must be funded by the portfolio; no outside funding is assumed."
+}

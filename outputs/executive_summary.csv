@@ -1,0 +1,25 @@
+﻿item,value
+system_status,OFFLINE_DEMO_RESEARCH_ONLY_NO_TRADE
+as_of,2026-10-29 00:00:00
+score_quarter,2026-09-30 00:00:00
+narrative_provider,extractive_fallback
+narrative_provider_is_llm,False
+demo_documents,True
+human_approved_candidates,0
+allocation_eligible_candidates,0
+allocation_status,RESEARCH_ONLY_NO_TRADE
+macro_regime,Disinflationary Slowdown
+portfolio_value,300306.83
+reserve_target_2033,508111.835318354
+base_operating_funding_confidence,0.9996666666666667
+base_commitment_recommended_lower,0.0
+base_commitment_recommended_upper,0.0
+base_probability_zero_facility_contribution,0.999
+simulation_paths_per_scenario,3000
+simulation_bucket_schedule,Dynamic liability glidepath
+model_final_training_rows,595
+model_oos_ic_mean,0.06185489580447564
+model_oos_direction_hit_rate,0.554527588813303
+governance,No automatic trading. AI output cannot bypass human deep-dive approval or the investment committee.
+forecast_limit,The ridge model ranks next-quarter relative returns; it does not predict daily prices with false precision.
+simulation_assumption_status,"Internal research assumptions, not official WGYS parameters or a market forecast."

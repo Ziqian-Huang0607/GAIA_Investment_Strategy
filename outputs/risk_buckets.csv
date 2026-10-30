@@ -1,0 +1,4 @@
+﻿bucket,target_weight,target_dollars,purpose
+Growth,0.85,255260.80550000002,Long-term growth and equity risk budget
+Stability,0.15000000000000002,45046.02450000001,Capital stability and drawdown control
+FutureLiability,0.0,0.0,Future liability pre-funding and reserve glidepath

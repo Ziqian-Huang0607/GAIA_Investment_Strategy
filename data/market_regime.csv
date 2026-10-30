@@ -1,0 +1,2 @@
+﻿date,growth_direction,inflation_direction,spy_vol20,spy_vol_percentile,portfolio_drawdown,portfolio_value,macro_note
+2026-10-29,slowing,falling,0.1,0.27,-0.0085,300306.83,"Team account snapshot; growth/inflation directions are editable analyst inputs, not fetched macro forecasts."

@@ -1,0 +1,11 @@
+﻿year,future_liability_weight,stability_weight,beginning_payment,rule
+2033,0.8,0.19999999999999996,50000.0,Pay operating commitment first; shorten duration and increase liquidity as payments approach.
+2034,0.8200000000000001,0.17999999999999994,50000.0,Pay operating commitment first; shorten duration and increase liquidity as payments approach.
+2035,0.8400000000000001,0.15999999999999992,50000.0,Pay operating commitment first; shorten duration and increase liquidity as payments approach.
+2036,0.8600000000000001,0.1399999999999999,50000.0,Pay operating commitment first; shorten duration and increase liquidity as payments approach.
+2037,0.88,0.12,50000.0,Pay operating commitment first; shorten duration and increase liquidity as payments approach.
+2038,0.9,0.09999999999999998,50000.0,Pay operating commitment first; shorten duration and increase liquidity as payments approach.
+2039,0.92,0.07999999999999996,50000.0,Pay operating commitment first; shorten duration and increase liquidity as payments approach.
+2040,0.9400000000000001,0.05999999999999994,50000.0,Pay operating commitment first; shorten duration and increase liquidity as payments approach.
+2041,0.9600000000000001,0.039999999999999925,50000.0,Pay operating commitment first; shorten duration and increase liquidity as payments approach.
+2042,0.98,0.020000000000000018,50000.0,Pay operating commitment first; shorten duration and increase liquidity as payments approach.

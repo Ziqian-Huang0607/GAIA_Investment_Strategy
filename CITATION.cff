@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite Commonwealth Funding and the contributors below."
+title: "GAIA: Liability-Driven Investment Research System"
+type: software
+repository-code: "https://github.com/Ziqian-Huang0607/GAIA_Investment_Strategy"
+version: 2.0.0
+date-released: "2026-10-30"
+authors:
+  - given-names: Ziqian
+    family-names: Huang
+  - given-names: Ethan
+    family-names: Qin
+  - given-names: Ka Ngat
+    family-names: Li
+  - given-names: Eric
+    family-names: Liu
+  - given-names: YuTong
+    family-names: Lin
+keywords:
+  - GAIA
+  - investment research
+  - liability-driven investing
+  - quantitative finance
+  - machine learning
+  - Monte Carlo simulation
+abstract: "A human-governed research system combining quarterly quantitative machine learning, narrative-agent evidence, risk-constrained allocation, and client-liability funding analysis."

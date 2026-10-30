@@ -1,0 +1,172 @@
+{
+  "model": {
+    "alpha": 10.0,
+    "stale_days": 400,
+    "min_train_quarters": 3,
+    "min_test_names": 10,
+    "features": [
+      "3B综合分",
+      "3C成长",
+      "3C质量",
+      "E/P"
+    ],
+    "label": "下季度超额"
+  },
+  "portfolio": {
+    "stock_sleeve_weight": 0.4,
+    "max_tilt": 0.35,
+    "min_stock_weight": 0.02,
+    "max_stock_weight": 0.06,
+    "trade_threshold_pp": 0.8,
+    "commission_per_trade": 25.0,
+    "trade_limit": 200
+  },
+  "gaia": {
+    "sector_weights": {
+      "growth": 0.25,
+      "earnings_revisions": 0.2,
+      "profitability": 0.2,
+      "valuation": 0.15,
+      "risk_adjusted_momentum": 0.2
+    },
+    "gfss_weights": {
+      "traditional_quant": 0.2,
+      "fundamental": 0.2,
+      "narrative_delta": 0.1,
+      "catalyst": 0.1,
+      "management": 0.1,
+      "ai_consensus": 0.15,
+      "risk": 0.15
+    },
+    "agents": [
+      "Fundamental Analyst",
+      "Risk Analyst",
+      "Macro Analyst",
+      "Devil's Advocate",
+      "Client-Liability Analyst"
+    ],
+    "uncertainty": {
+      "min_ai_confidence": 0.6,
+      "max_ads": 0.75,
+      "require_human_approval": true
+    },
+    "allocation": {
+      "stock_sleeve": 0.4,
+      "min_stock_weight": 0.02,
+      "max_stock_weight": 0.06,
+      "sector_cap_within_stock_sleeve": 0.5,
+      "trade_threshold": 0.008,
+      "max_per_sector": 2,
+      "single_stock_satellite_cap": 0.25,
+      "sector_satellite_cap": 0.5,
+      "min_adv_musd": 10.0,
+      "correlation_threshold": 0.8,
+      "research_only_without_approval": true
+    },
+    "risk": {
+      "base_growth_weight": 0.85,
+      "min_growth_weight": 0.05,
+      "max_growth_weight": 0.9,
+      "high_volatility_percentile": 0.75,
+      "extreme_volatility_percentile": 0.9,
+      "drawdown_watch": -0.03,
+      "drawdown_stress": -0.06,
+      "liability_targets": {
+        "2026": 0.0,
+        "2027": 0.0,
+        "2028": 0.02,
+        "2029": 0.05,
+        "2030": 0.15,
+        "2031": 0.3,
+        "2032": 0.55,
+        "2033": 0.75,
+        "2034": 0.8,
+        "2035": 0.85,
+        "2036": 0.9,
+        "2037": 0.92,
+        "2038": 0.94,
+        "2039": 0.96,
+        "2040": 0.98,
+        "2041": 1.0,
+        "2042": 1.0
+      },
+      "time_multipliers": {
+        "2026": 1.0,
+        "2027": 1.0,
+        "2028": 0.92,
+        "2029": 0.85,
+        "2030": 0.7,
+        "2031": 0.55,
+        "2032": 0.25,
+        "2033": 0.1
+      }
+    },
+    "simulation": {
+      "paths": 3000,
+      "seed": 42,
+      "distribution": "student_t",
+      "student_t_df": 6,
+      "buckets": [
+        "Growth",
+        "Stability",
+        "FutureLiability"
+      ],
+      "return_assumptions": {
+        "Growth": {
+          "mean": 0.07,
+          "vol": 0.16
+        },
+        "Stability": {
+          "mean": 0.03,
+          "vol": 0.05
+        },
+        "FutureLiability": {
+          "mean": 0.02,
+          "vol": 0.01
+        }
+      },
+      "correlation": [
+        [
+          1.0,
+          0.2,
+          0.1
+        ],
+        [
+          0.2,
+          1.0,
+          0.3
+        ],
+        [
+          0.1,
+          0.3,
+          1.0
+        ]
+      ],
+      "reserve_return": {
+        "mean": 0.02,
+        "vol": 0.01
+      },
+      "confidence_thresholds": [
+        0.9,
+        0.95,
+        0.975,
+        0.99
+      ],
+      "scenarios": [
+        "base",
+        "bull",
+        "bear",
+        "recession",
+        "equity_crash",
+        "rate_shock",
+        "sequence_stress"
+      ],
+      "commitment_lower_percentile": 10,
+      "commitment_upper_percentile": 50,
+      "reserve_initial_composition": {
+        "FutureLiability": 0.8,
+        "Stability": 0.2
+      }
+    }
+  }
+}

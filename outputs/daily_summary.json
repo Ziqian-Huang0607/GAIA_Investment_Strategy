@@ -1,0 +1,17 @@
+{
+  "account_as_of": "2026-10-29",
+  "theoretical_sell_proceeds": 5657.360000000001,
+  "theoretical_buy_requirement": 6808.4,
+  "buy_scale": 0.8325098407849129,
+  "actual_sell_proceeds": 5657.360000000001,
+  "actual_buy_cost": 5498.0,
+  "actual_commissions": 100.0,
+  "ending_cash": 170.0600000000004,
+  "actual_trade_count": 4,
+  "remaining_trades": 183,
+  "cash_check": "PASS",
+  "trade_limit_check": "PASS",
+  "stock_target_sum": 0.4,
+  "total_target_sum": 1.0,
+  "note": "Research signals only; investment committee review is required before trading."
+}
